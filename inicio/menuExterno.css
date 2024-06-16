@@ -1,0 +1,57 @@
+ul {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  background-color:  #4caf70;
+  display: flex;
+  justify-content: center;
+
+}
+
+li {
+  float: left;
+  margin:auto;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-align:center;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #198b43;
+}
+
+
+.gallery {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container {
+  margin: 35px;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+img {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
